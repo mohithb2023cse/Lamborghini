@@ -1,0 +1,182 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+.hero-section {
+    background-image: url('download\ 2.webp');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    text-align: center;
+}
+.hero-section image{
+    background-color: black;
+}
+.hero-content h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+#about .background {
+    position: relative; text-align: left; color: white;
+}
+
+#about .background img {
+    width: 100%; height: auto; object-fit: cover;
+}
+
+#about .background-overlay {
+    position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.6); padding: 20px;
+}
+
+#about .background-overlay h2 {
+    font-size: 1.5em; color: rgb(183, 182, 182); line-height: 1.3;
+}
+
+
+.hero-content p {
+    margin: 1rem 0;
+    font-size: 1.5rem;
+}
+
+.cta-button {
+    text-decoration: none;
+    background: #ffcc00;
+    color: #333;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.cta-button:hover {
+    background: #e6b800;
+}
+
+.models-section {
+    padding: 2rem;
+    background: #f4f4f4;
+    text-align: center;
+    
+}
+.models-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.models {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.model {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 1rem;
+    width: 300px;
+    text-align: center;
+}
+.model img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.model:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.model:hover img {
+    transform: scale(1.05);
+}
+
+.model:hover h3 {
+    color: #ff0000;
+}
+#madd{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+
+.contact-section {
+    padding: 1rem;
+    text-align: center;
+    background-image: url('download.jpg'); 
+    background-size: cover;
+    background-position: center;
+    color: #fff; 
+}
+
+.contact-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.contact-form {
+    max-width: 200px;
+    margin:auto;
+    text-align: left;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+    width: 200px;
+}
+
+.form-group label {
+    display: inline;
+    margin-bottom: 1rem;
+    font-weight:bolder;
+
+    
+}
+
+.form-group input{
+    text-align: left;
+    border-radius: 5px;
+    width: 100%;
+    padding: 5px;
+}
+.form-group textarea {
+    width: 100%;
+    padding: 100px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    
+}
+
+.submit-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background: #000000;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.submit-button:hover {
+    background: #e60000;
+}
+
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
